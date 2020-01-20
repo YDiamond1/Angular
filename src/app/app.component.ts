@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  static API_URL = 'http://localhost:21651';
   title = 'Angular-front-end';
 }
